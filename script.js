@@ -20,7 +20,7 @@ const products=[
     category: 'presentes',
     description: 'Enfeite religioso de Jesus Sentado, ideal para decorar borda de monitor, prateleiras, mesas ou nichos. Uma peça delicada e cheia de significado.',
     price: 'R$ 29,90',
-    image: 'https://imgur.com/UtRhN47',
+    image: 'https://imgur.com/UtRhN47.jpg',
     shopee: 'https://shopee.com.br/Jesus-Sentado-Decorativo-Enfeite-Borda-Monitor-Prateleira-Mesa-Nicho-Decora%C3%A7%C3%A3o-Religiosa-Presente-PLA-i.1079674578.58267566209?extraParams=%7B%22display_model_id%22%3A159794828525%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -36,7 +36,7 @@ const products=[
     category: 'organização',
     description: 'Porta-objetos fofo em formato de elefantinho, ideal para organizar a mesa, porta-canetas, porta-treco e decoração kawaii para home office.',
     price: 'R$ 34,90',
-    image: 'https://imgur.com/mh1mRhq',
+    image: 'https://imgur.com/mh1mRhq.jpg',
     shopee: 'https://shopee.com.br/Porta-Objetos-Elefantinho-Fofo-Organizador-de-Mesa-Porta-Treco-Porta-Canetas-Decora%C3%A7%C3%A3o-Kawaii-Home-Office-Organizador-i.1079674578.58264424622?extraParams=%7B%22display_model_id%22%3A209624319810%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -44,7 +44,7 @@ const products=[
     category: 'organização',
     description: 'Acessório prático para manter seu setup organizado sem precisar furar a parede. Compatível com o Pulse 3D do PS5 e diversos outros modelos de fones.',
     price: 'R$ 24,90',
-    image: 'https://imgur.com/RZTkGbY',
+    image: 'https://imgur.com/RZTkGbY.jpg',
     shopee: 'https://shopee.com.br/Wall-mounted-gaming-Headset-stand-with-3M-tape.-Compatible-with-PS5-Pulse-3D-and-various-other-models.-i.1079674578.58263373786?extraParams=%7B%22display_model_id%22%3A199191169639%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -52,7 +52,7 @@ const products=[
     category: 'organização',
     description: 'Saboneteira minimalista com design moderno em ondas, produzida em PLA, ideal para organizar e decorar o banheiro.',
     price: 'R$ 29,90',
-    image: 'https://imgur.com/DQCs85m',
+    image: 'https://imgur.com/DQCs85m.jpg',
     shopee: 'https://shopee.com.br/Saboneteira-Minimalista-em-PLA-Design-Moderno-em-Ondas-Porta-Sabonete-para-Banheiro-Banzai-i.1079674578.58213605945?extraParams=%7B%22display_model_id%22%3A219623774446%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -60,7 +60,7 @@ const products=[
     category: 'halloween',
     description: 'Enfeite decorativo de morcego em impressão 3D, ideal para festas de Halloween e decorações temáticas.',
     price: 'R$ 29,90',
-    image: 'https://imgur.com/qmIxjKx',
+    image: 'https://imgur.com/qmIxjKx.jpg',
     shopee: 'https://shopee.com.br/Halloween-Bat-Table-Decoration-Ornament-Halloween-Party-Decorative-Bat-19cm-Themed-Decoration-PLA-3D-Bat-i.1079674578.22899671157?extraParams=%7B%22display_model_id%22%3A189193970455%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -68,7 +68,7 @@ const products=[
     category: 'halloween',
     description: 'Porta-doces decorativo em formato de abóbora de 15cm, perfeito para festas e decoração temática de Halloween.',
     price: 'R$ 34,90',
-    image: 'https://imgur.com/BDdbfed',
+    image: 'https://imgur.com/BDdbfed.jpg',
     shopee: 'https://shopee.com.br/Halloween-Pumpkin-Candy-Holder-Table-Decoration-Party-Halloween-Ornament-Decorative-Candy-Bucket-15cm-3D-PLA-HALLOWEEN-i.1079674578.58267567641?extraParams=%7B%22display_model_id%22%3A119875334752%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -76,7 +76,7 @@ const products=[
     category: 'halloween',
     description: 'Porta-doces decorativo em formato de monstrinho/diabinho de 15cm, perfeito para festas e decoração temática de Halloween.',
     price: 'R$ 34,90',
-    image: 'https://imgur.com/kvw9FTc',
+    image: 'https://imgur.com/kvw9FTc.jpg',
     shopee: 'https://shopee.com.br/Monstrinho-Halloween-Porta-Doces-Mesa-Decora%C3%A7%C3%A3o-Festa-Enfeite-Halloween-Diabinho-Porta-Guloseimas-15cm-pla-dia-das-bruxa-i.1079674578.58267568899?extraParams=%7B%22display_model_id%22%3A228811920555%2C%22model_selection_logic%22%3A3%7D'
   },
   {
@@ -84,7 +84,7 @@ const products=[
     category: 'presentes',
     description: 'Kit incrível com 6 dinossauros articulados em 3D (T-Rex, Velociraptor, Tricerátops, Anquilossauro, Parasaurolofo e Estegossauro). Perfeito para colecionar e presentear.',
     price: 'R$ 59,90',
-    image: 'https://imgur.com/CWGXXfF',
+    image: 'https://imgur.com/CWGXXfF.jpg',
     shopee: 'https://shopee.com.br/Kit-6-Dinossauros-Articulados-T-Rex-Velociraptor-Tricer%C3%A1tops-Anquilossauro-Parasaurolofo-Estegossauro-Colecion%C3%A1vel-3Dkit-i.1079674578.23699549312?extraParams=%7B%22display_model_id%22%3A129657310986%2C%22model_selection_logic%22%3A3%7D'
   }
 ];
