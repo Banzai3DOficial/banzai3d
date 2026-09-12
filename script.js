@@ -35,7 +35,7 @@ const products=[
     name: 'Porta Objetos Elefantinho Fofo Organizador de Mesa',
     category: 'organização',
     description: 'Porta-objetos fofo em formato de elefantinho, ideal para organizar a mesa, porta-canetas, porta-treco e decoração kawaii para home office.',
-    price: 'R$ 34,90',
+    price: 'R$ 124,90',
     image: 'https://imgur.com/mh1mRhq.jpg',
     shopee: 'https://shopee.com.br/Porta-Objetos-Elefantinho-Fofo-Organizador-de-Mesa-Porta-Treco-Porta-Canetas-Decora%C3%A7%C3%A3o-Kawaii-Home-Office-Organizador-i.1079674578.58264424622?extraParams=%7B%22display_model_id%22%3A209624319810%2C%22model_selection_logic%22%3A3%7D'
   },
