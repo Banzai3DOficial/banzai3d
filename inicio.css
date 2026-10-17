@@ -30,3 +30,6 @@
 .channel-social{display:grid;grid-template-columns:1fr;width:100%;gap:10px}.channel-social .social-button{width:100%;min-height:49px;margin:0;padding:13px 18px;font-size:12px;border:0;border-radius:3px;gap:10px;color:#10100e;background:var(--gold);text-decoration:none;line-height:1.4}.social-icon{display:block;width:21px;height:21px;flex-shrink:0}.channel-card{min-height:360px}.channel-card>.button{min-height:49px}@media(max-width:700px){.channel-card{min-height:0}.channel-social{margin-top:15px}}
 
 .hours{font-size:12px!important;line-height:1.8}.catalog-note{font-size:12px;color:var(--muted)}
+
+/* Header contact action follows the shared gold button treatment. */
+header .nav-contact{background:var(--gold);color:#10100e;border:1px solid var(--gold);font-weight:700}header .nav-contact:hover{color:#10100e;filter:brightness(1.08)}

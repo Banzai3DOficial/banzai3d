@@ -10,3 +10,10 @@ html{scroll-padding-top:80px}header{height:72px;min-height:72px;padding:8px 5%;g
 @media(max-width:700px){.static-motion .scroll-scene{height:auto}.static-motion .hero-sticky{position:relative;top:auto}}
 @media(max-width:700px){.visual{mask-image:radial-gradient(ellipse at center,#000 48%,transparent 76%)}.visual video,.visual .poster{object-fit:cover;object-position:center}}
 @media(max-width:700px){.scene-bottom{margin-bottom:54px}}
+
+/* Compact values on phones, retaining the complete approved copy. */
+@media(max-width:700px){
+.purpose-3{padding:36px 6%}.purpose-3 .purpose-inner{display:block}.purpose-3 .purpose-number{display:none}.purpose-3 .purpose-content>span{font-size:8px;letter-spacing:2px}.purpose-3 .purpose-content h2{font-size:30px;line-height:1.2;margin:12px 0 20px}.purpose-3 .values-list{display:grid;grid-template-columns:1fr;gap:0;margin:0}.purpose-3 .values-list li{padding:14px 0;border-top:1px solid #645333;font-size:13px;line-height:1.65}.purpose-3 .values-list strong{display:inline;font-size:13px;line-height:1.65;margin:0;font-weight:700}.purpose-3 .values-list li:last-child{padding-bottom:0}
+}
+
+.value-short{display:none}@media(max-width:700px){.values-list .value-full{display:none}.values-list .value-short{display:inline}}
