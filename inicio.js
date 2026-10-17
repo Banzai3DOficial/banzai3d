@@ -1,0 +1,9 @@
+document.documentElement.classList.add('js');
+const video=document.querySelector('video'),scene=document.querySelector('.scroll-scene'),bar=document.querySelector('.progress span'),toggle=document.querySelector('.motion-toggle'),motion=matchMedia('(prefers-reduced-motion: reduce)');
+let frozen=false,target=0,pending=false,ready=false;
+function seek(){if(!ready||motion.matches||frozen||video.seeking)return;if(Math.abs(video.currentTime-target)>.025){try{video.currentTime=target}catch{}}}
+function update(){pending=false;if(!scene)return;const range=scene.offsetHeight-document.querySelector('.hero-sticky').offsetHeight;const progress=Math.max(0,Math.min(1,-scene.getBoundingClientRect().top/Math.max(1,range)));if(bar)bar.style.width=`${progress*100}%`;if(ready){target=Math.min(video.duration-.05,Math.round((progress*progress*(3-2*progress))*video.duration*24)/24);seek()}}
+function schedule(){if(!pending){pending=true;requestAnimationFrame(update)}}
+function preference(){document.body.classList.toggle('static-motion',motion.matches);if(toggle)toggle.hidden=motion.matches||!ready;if(video&&motion.matches)video.pause();schedule()}
+function initVideo(){ready=true;document.body.classList.add('video-ready');preference();update()}
+if(video){video.addEventListener('loadeddata',initVideo);if(video.readyState>=2)initVideo();video.addEventListener('seeked',seek);video.addEventListener('error',()=>{ready=false;document.body.classList.remove('video-ready');if(toggle)toggle.hidden=true});video.pause();window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);motion.addEventListener('change',preference);toggle?.addEventListener('click',()=>{frozen=!frozen;toggle.textContent=frozen?'Retomar animação':'Pausar animação';toggle.setAttribute('aria-pressed',String(frozen));if(!frozen)schedule()});preference();update()}
